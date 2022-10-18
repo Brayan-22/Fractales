@@ -5,5 +5,5 @@ El programa graficara diversos fractales generados gracias al analisis del plano
 
 ### Desarrollador 👨‍💻
 
-* Brayan Alejandro Riveros Rodriguez 
-* Estudiante en Ingenieria de sistemas de la Universidad Distrital
+#### Brayan Alejandro Riveros Rodriguez 
+##### Estudiante en Ingenieria de sistemas de la Universidad Distrital
