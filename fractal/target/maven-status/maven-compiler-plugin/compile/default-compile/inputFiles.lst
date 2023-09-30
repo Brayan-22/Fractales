@@ -1,7 +1,7 @@
-/home/alejandro/NetBeansProjects/fractal/src/main/java/Launcher.java
-/home/alejandro/NetBeansProjects/fractal/src/main/java/presentacion/Modelo.java
-/home/alejandro/NetBeansProjects/fractal/src/main/java/logica/Mandelbrot.java
-/home/alejandro/NetBeansProjects/fractal/src/main/java/logica/Julia.java
-/home/alejandro/NetBeansProjects/fractal/src/main/java/presentacion/Controlador.java
-/home/alejandro/NetBeansProjects/fractal/src/main/java/presentacion/Vista.java
-/home/alejandro/NetBeansProjects/fractal/src/main/java/logica/Fractal.java
+/home/alejandro/Documentos/personal/proyectos/Fractales/fractal/src/main/java/logica/Fractal.java
+/home/alejandro/Documentos/personal/proyectos/Fractales/fractal/src/main/java/presentacion/Vista.java
+/home/alejandro/Documentos/personal/proyectos/Fractales/fractal/src/main/java/logica/Mandelbrot.java
+/home/alejandro/Documentos/personal/proyectos/Fractales/fractal/src/main/java/Launcher.java
+/home/alejandro/Documentos/personal/proyectos/Fractales/fractal/src/main/java/presentacion/Controlador.java
+/home/alejandro/Documentos/personal/proyectos/Fractales/fractal/src/main/java/presentacion/Modelo.java
+/home/alejandro/Documentos/personal/proyectos/Fractales/fractal/src/main/java/logica/Julia.java
