@@ -2,6 +2,8 @@
 
 This project is a Java application that allows users to generate and record fractal images into a video file. The application provides a graphical user interface (GUI) for interacting with the fractal generation and recording process.
 
+## What are fractal
+Fractals are a phenomenon always present in nature, and this project aims to showcase how amazing they can be. The program will graph various fractals generated through the analysis of the complex plane, first studied by mathematician Benoît Mandelbrot. These fractals can be graphically represented thanks to an escape-time algorithm, where the different colors indicate the speed at which points on the complex plane diverge or converge in a recursive sequence.
 ## Features
 
 - Generate fractal images
@@ -71,3 +73,7 @@ Add the following dependencies to your pom.xml file
 ## License
 
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
+
+## Developer 
+Brayan Alejandro Riveros Rodriguez 👨‍💻
+Systems engineering student at the district university, Bogotá
