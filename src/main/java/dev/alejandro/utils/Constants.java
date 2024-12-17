@@ -12,7 +12,9 @@ public final class Constants {
     public static Font FONT_LARGE = new Font("Arial", Font.BOLD, 16);
     public static Font FONT_XLARGE = new Font("Arial", Font.BOLD, 20);
 
-
+    public static final String START = "Start";
+    public static final String RECORD = "Record";
+    public static final String RESTART = "Restart";
 
 
     public static final int WIDTH = Integer.parseInt(Utils.getProperties().getProperty("app.canvas.width", "800"));

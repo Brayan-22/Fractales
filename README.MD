@@ -65,7 +65,7 @@ Add the following dependencies to your pom.xml file
 3. Use the "START" button to start generating the fractal.
 4. Use click over the canvas to zoom in and out of the fractal.
 5. Use the arrow keys to navigate through the fractal.
-6. Click the "GRABAR" button to start recording the fractal images.
+6. Click the "RECORD" button to start recording the fractal images.
 7. The recorded video will be saved in the folder who you choose.
 8. The video will be saved in the folder you choose.
 

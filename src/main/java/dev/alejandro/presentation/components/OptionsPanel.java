@@ -48,7 +48,7 @@ public class OptionsPanel extends JPanel {
             gbc.fill = GridBagConstraints.BOTH;
             add(button, gbc);
         }
-        startButton = new JButton("INICIAR");
+        startButton = new JButton(Constants.START);
         startButton.setFont(Constants.FONT_MEDIUM);
         startButton.setForeground(Color.BLACK);
         startButton.setSize(200, 100);
@@ -60,7 +60,7 @@ public class OptionsPanel extends JPanel {
         gbc.weighty = 1;
         gbc.fill = GridBagConstraints.CENTER;
         add(startButton, gbc);
-        recordButton = new JButton("GRABAR");
+        recordButton = new JButton(Constants.RECORD);
         recordButton.setFont(Constants.FONT_MEDIUM);
         recordButton.setForeground(Color.BLACK);
         recordButton.setSize(200, 100);

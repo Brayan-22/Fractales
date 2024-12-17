@@ -72,10 +72,10 @@ public class Model {
     }
 
     public synchronized void changeTextButtonStart() {
-        if (ventana.getStartButton().getText().equals("INICIAR")) {
-            ventana.getStartButton().setText("REINICIAR");
+        if (ventana.getStartButton().getText().equals(Constants.START)) {
+            ventana.getStartButton().setText(Constants.RESTART);
         }else{
-            ventana.getStartButton().setText("INICIAR");
+            ventana.getStartButton().setText(Constants.START);
         }
     }
     public void createImages(){

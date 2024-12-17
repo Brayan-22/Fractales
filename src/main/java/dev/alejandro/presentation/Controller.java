@@ -1,5 +1,6 @@
 package dev.alejandro.presentation;
 
+import dev.alejandro.utils.Constants;
 import dev.alejandro.utils.ImageConverter;
 import dev.alejandro.utils.Utils;
 
@@ -63,7 +64,7 @@ public class Controller implements ActionListener,
     @Override
     public void actionPerformed(ActionEvent e) {
         switch (e.getActionCommand()) {
-            case "INICIAR" -> {
+            case Constants.START -> {
                 try {
                     m.dibujar(newMinX, newMaxX, newMinY, newMaxY);
                     m.getVentana().enableButtons(false);
@@ -73,7 +74,7 @@ public class Controller implements ActionListener,
                     ex.printStackTrace();
                 }
             }
-            case "GRABAR" -> {
+            case Constants.RECORD -> {
                 JOptionPane.showMessageDialog(m.getVentana(), "La secuencia a grabar es la siguiente:");
                 m.dibujarSecuencia();
                 int response = JOptionPane.showConfirmDialog(m.getVentana(), "¿Confirmar la secuencia?", "Confirmar", JOptionPane.YES_NO_OPTION);
@@ -116,11 +117,12 @@ public class Controller implements ActionListener,
                 m.cleanCanvas();
                 m.cleanImages();
             }
-            case "REINICIAR" -> {
+            case Constants.RESTART -> {
                 m.getVentana().enableButtons(true);
                 m.getVentana().enableRecordButton(false);
                 m.changeTextButtonStart();
                 m.cleanCanvas();
+                m.cleanImages();
                 resetValues();
             }
         }
@@ -133,6 +135,9 @@ public class Controller implements ActionListener,
 
     @Override
     public void mousePressed(MouseEvent e) {
+        if (m.getVentana().getStartButton().getText().equals(Constants.START)) {
+            return;
+        }
         try{
             zoom();
             m.dibujar(newMinX, newMaxX, newMinY, newMaxY);
