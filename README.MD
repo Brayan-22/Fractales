@@ -46,8 +46,8 @@ Add the following dependencies to your pom.xml file
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Brayan-22/fractal-image-recorder.git
-   cd fractal-image-recorder
+   git clone https://github.com/Brayan-22/Fractales
+   cd Fractales
     ```
 
 2. Build the project:
@@ -56,7 +56,7 @@ Add the following dependencies to your pom.xml file
    ```
 4. Run the application:
    ```sh
-    java -jar target/fractales.jar
+    java -jar target/fractales-jar-with-dependencies.jar
     ```
 ## Usage
 
